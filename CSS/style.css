@@ -1,0 +1,47 @@
+main,header,section,aside,footer{
+    margin: 0px;
+    padding: 20px;
+    border: 1px solid #000000;
+    color: #fff;
+}
+
+main{
+    background-color: wheat;
+    font-size: 2rem;
+    color: #6a9a12;
+}
+.header{
+    background-color: #791818;
+}
+.hero{
+    background-color: #03a9f4;
+}
+
+.content{
+    background-color: #129a22;
+}
+.sidebar{
+    border:  1px solid #000000;
+    background-color: #73ab77;
+}
+.footer{
+    border: 1px solid #000000;
+    background-color: #616161;
+}
+
+
+@media screen and (min-width:640px){
+    .flex-container{
+         display: flex;
+    }
+    .wrapper{
+        margin: auto;
+        max-width: 75rem;
+    }
+    .content{
+        flex:1;
+    }
+    .sidebar{
+        flex: 0 1 300px;
+    }
+}
