@@ -1,5 +1,5 @@
 main,header,section,aside,footer{
-    margin: 0px;
+    margin:1rem;
     padding: 20px;
     border: 1px solid #000000;
     color: #fff;
@@ -7,7 +7,7 @@ main,header,section,aside,footer{
 
 main{
     background-color: wheat;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #6a9a12;
 }
 .header{
